@@ -1,127 +1,226 @@
-*{
-  margin: 0;
-  padding: 0;
-}
 
 
-body {
-  background-color: #D6EAF8;
-}
-.house:hover {
-  background-color: white;
-}
 
-#name {
-  font-size: 35px;
-  margin-top: .5%;
-  text-align: center;
-}
-#choosing-first-title {
-  border: 1px solid black;
-  background-color: #DDE0D7;
-  font-size: 20px;
-  color: #01AABC;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 2%;
-  text-align: center;
-}
-#yellow-first {
-  margin-left: 40%;
-  margin-right: auto;
-  width: 10%;
-  margin-top: 1%;
-  margin bottom: 10%;
-  background-color: #DDE0D7;
-  border: 1px solid black;
-  color: #01AABC;
-  font-size: 15px;
-}
-#yellow-first:hover {
-  background-color: #E2D3DF;
+#logo {
+  float: center;
+  background: #D6EAF8;
   color: black;
-  cursor: pointer;
-  box-shadow: 0.3em 0.3em 0.3em #777777;
+  font-weight: bold;
+  font-family: monospace;
 }
-#red-first {
+
+
+
+#reset-scoreboard {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 21px;
+  line-height: 55px;
+  margin: 0%;
+  text-align: center;
+  width: 456px;
   margin-left: auto;
   margin-right: auto;
-  width: 10%;
-  margin-top: 1%;
-  margin bottom: 10%;
-  background-color: #DDE0D7;
-  border: 1px solid black;
-  color: #01AABC;
-  font-size: 15px;
 }
-#red-first:hover {
-  background-color: #E2D3DF;
-  color: black;
+
+
+#reset-scoreboard:hover {
+  background-color: black;
+  color: white;
   cursor: pointer;
-  box-shadow: 0.3em 0.3em 0.3em #777777;
 }
-.container  {
-  margin-top: 3%;
+
+
+}
+
+div {
+  text margin: 0px;
+}
+
+
+
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #D6EAF8;
+  border-radius: 50%;
+  display: inline-block;
+  line-height: 175px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+}
+
+.wrap {
+  flex-wrap: wrap;
+  height: 750px;
+  width: 800px;
+}
+
+.container {
+align-items: center;
+}
+
+.containerv2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3%;
 }
 
-.column {
+.columnv2 {
   height: 100%;
   width: 100%;
   flex-direction: column;
 }
 
-.wrap {
-  flex-wrap: wrap;
-  height: 980px;
-  width: 900px;
-  background-color: #455FE0;
-  border: 3px solid black;
+.Red {
+  background-color: #ed3b3b;
+  color: transparent;
 }
 
-.circle {
-  border: 1px solid rgba(0, 0, 0, 0.75);
-  font-size: 96px;
-  height: 70px;
-  line-height: 150px;
+.Yellow {
+  background-color: #f5ef38;
+  color: transparent;
+}
+
+.first {
+  border: 1px solid;
+  font-size: 46px;
+  height: 90px;
+  line-height: 100px;
   user-select: none;
-  width: 55px;
+  width: 110px;
+  margin: 5%;
   border-radius: 50%;
-  border: 2px solid black;
-  background: white;
+  color: white;
 }
 
-.circle:hover {
-  background-color: #E2D3DF;
+.first:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}
+
+
+
+#board {
+  background-color: #gray;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 123px;
+  user-select: none;
+
+}
+
+#yellowFirst {
+  background-color: #f5ef38;
+}
+
+#redFirst {
+  background-color: #ed3b3b;
+}
+
+#reset-button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-size: 21px;
+  line-height: 55px;
+  margin: auto;
+  text-align: center;
+  width: 456px;
+}
+
+
+#reset-button:hover {
+  background-color: black;
+  color: white;
   cursor: pointer;
 }
 
-#scoreBoard{
+
+
+.wins {
+  border: 2px solid white;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  user-select: none;
+  width: 150px;
+  color: white;
+  background-color: 
+}
+#table {
   margin-left: auto;
   margin-right: auto;
-  align-items: center;
-  margin: auto;
+  background-color:
 }
-.scores {
-  border: 2px solid black;
-  width: 20%;
-  background-color: #DDE0D7;
-    text-align: center;
-}
-.redScore ,
-.yellowScore {
-  border-bottom: 2px solid black;
-  font-size: 20px;
-}
-#redScore ,
-#yellowScore {
-  color: #01AABC;
-  font-size: 17px;
+#connectfour{
+  background: url("/Users/andy/Desktop/APCSP/pset-9/img/hompage3.png") no-repeat center center fixed;
+  background-size: cover;
 }
 
-#board {
-  background-color: #D6EAF8
+body {
+  text-align: center;
+  font-family: "Roboto", monospace;
+    overflow-x: hidden; //horizontal
+    overflow-y: scroll; //vertical
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #D6EAF8;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+
+  margin-left: 70px; /* Same as the width of the sidenav */
+  /* Increased text to enable scrolling */
+  padding: 0px 0px;
 }
