@@ -157,7 +157,7 @@ align-items: center;
   user-select: none;
   width: 150px;
   color: white;
-  background-color: 
+  background-color:
 }
 #table {
   margin-left: auto;
@@ -165,7 +165,7 @@ align-items: center;
   background-color:
 }
 #connectfour{
-  background: url("/Users/andy/Desktop/APCSP/pset-9/img/hompage3.png") no-repeat center center fixed;
+  background: url("../pset-9/img/hompage3.png") no-repeat center center fixed;
   background-size: cover;
 }
 
