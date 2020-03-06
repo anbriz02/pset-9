@@ -1,21 +1,21 @@
 
 #home{
-  background: url("../pset-9/img/homepage1.png") no-repeat center center fixed;
+  background: url("homepage1.png") no-repeat center center fixed;
   background-size: cover;
 }
 
 #tictactoe{
-  background: url("../pset-9/img/hompage2.png") no-repeat center center fixed;
+  background: url("hompage2.png") no-repeat center center fixed;
   background-size: cover;
 }
 
 #connectfour{
-  background: url("../pset-9/img/hompage3.png") no-repeat center center fixed;
+  background: url("hompage3.png") no-repeat center center fixed;
   background-size: cover;
 }
 
 #brickbreaker{
-  background: url("../pset-9/img/homepage4.png") no-repeat center center fixed;
+  background: url("homepage4.png") no-repeat center center fixed;
   background-size: cover;
 }
 
